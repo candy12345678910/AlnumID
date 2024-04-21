@@ -22,13 +22,12 @@ function alnumid(len,option){
                 throw new Error("Wrong key is entered")
             } }).join("")
     }
-
     if(id.length==0){ id=mainId }
 
     for(var i=0;i<len;i++){
        uid+=id[Math.floor(Math.random()*id.length)]
     }
-
+    
     return uid
 }
 
