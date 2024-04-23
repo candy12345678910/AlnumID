@@ -1,6 +1,6 @@
 {
   "name": "alnumid",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Customizable Unique ID",
   "main": "index.js",
   "scripts": {
